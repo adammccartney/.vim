@@ -205,31 +205,3 @@ map <Leader>b Oimport ipdb; ipdb.set_trace() #BREAKPOINT<C-c>
 set nofoldenable
 
 
-"==============================================================================
-"You Complete Me 
-"==============================================================================
-
-let g:ycm_clangd_binary_path = "/bin/clangd-10"
-
-
-" Jupyter Notebook integration
-" cd ~/.vim/bundle
-" git clone https://github.com/broesler/jupyter-vim.git
-
-"Always use the same virtual env for vim, regardless of what Python 
-" environment is loaded in the shell from which vim is launched
-"let g:vim_virtualenv_path = '/home/adam/.virtualenvs/mu/'
-"if exists('g:vim_virtualenv_path')
-"    pythonx import os; import vim
-"    pythonx activate_this = os.path.join(vim.eval('g:vim_virtualenv_path'), 'bin/activate')
-"    pythonx with open(activate_this) as f: exec(f.read(), {'__file__': activate_this})
-"endif
-"
-
-
-"=================
-" highlightedyank
-"================
-
-let g:highlightedyank_highlight_duration = 250
-
