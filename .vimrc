@@ -89,10 +89,11 @@ set nobackup
 set nowritebackup
 set noswapfile
 
-"=======================================================
-" Virtual Environments
-"======================================================
-"let g:virtualenv_directory = $VIRTUAL_ENV
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
 
 "=======================================================
 "Syntax formatting
@@ -142,33 +143,6 @@ call pathogen#infect()
 syntax on 
 filetype plugin indent on
 
-" Setup Vim-LaTex
-" cd ~/.vim/bundle && git clone https://github.com/vim-latex/vim-latex.git
-" REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
-filetype plugin on
-
-" IMPORTANT: win32 users will need to have 'shellslash' set so that latex
-" can be called correctly.
-set shellslash
-
-" OPTIONAL: This enables automatic indentation as you type.
-filetype indent on
-
-" OPTIONAL: Starting with Vim 7, the filetype of empty .tex files defaults to
-" 'plaintex' instead of 'tex', which results in vim-latex not being loaded.
-" The following changes the default filetype back to 'tex':
-let g:tex_flavor='latex'
-
-
-
-"
-" t pope's fugitive ( Git wrapper for vim )
-" mkdir -p ~/.vim/bundle/tpope/start
-" cd ~/.vim/pack/tpope/start
-" git clone https://tpope.io/vim/fugitive.git
-" vim -u NONE -c "helptags fugitive/doc" -c q
-"
-"
 
 " =====================================================
 " Python IDE-setup
@@ -196,7 +170,6 @@ let g:jedi#usages_command = "<leader>z"
 let g:jedi#popup_on_dot = 0
 let g:jedi#popup_select_first = 0
 map <Leader>b Oimport ipdb; ipdb.set_trace() #BREAKPOINT<C-c>
-
 
 " Python folding
 " mkdir -p ~/.vim/ftplugin
