@@ -13,3 +13,27 @@
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
+[submodule "bundle/chuck.vim"]
+	path = bundle/chuck.vim
+	url = https://github.com/wilsaj/chuck.vim.git
+[submodule "bundle/vim-cpp-modern"]
+	path = bundle/vim-cpp-modern
+	url = https://github.com/bfrg/vim-cpp-modern.git
+[submodule "bundle/vim-table-mode"]
+	path = bundle/vim-table-mode
+	url = git@github.com:dhruvasagar/vim-table-mode.git
+[submodule "/home/adam/.vim/bundle/vim-go"]
+	path = /home/adam/.vim/bundle/vim-go
+	url = https://github.com/fatih/vim-go.git
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe.git
+[submodule "bundle/haskell-vim"]
+	path = bundle/haskell-vim
+	url = https://github.com/neovimhaskell/haskell-vim.git
+[submodule "bundle/scvim"]
+	path = bundle/scvim
+	url = https://github.com/supercollider/scvim.git
+[submodule "bundle/vim-slime"]
+	path = bundle/vim-slime
+	url = git@github.com:jpalardy/vim-slime.git
