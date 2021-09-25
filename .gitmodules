@@ -40,3 +40,6 @@
 [submodule "bundle/vim-hindent"]
 	path = bundle/vim-hindent
 	url = https://github.com/alx741/vim-hindent.git
+[submodule "bundle/vim-pug"]
+	path = bundle/vim-pug
+	url = git@github.com:digitaltoad/vim-pug.git
