@@ -43,3 +43,9 @@
 [submodule "bundle/vim-pug"]
 	path = bundle/vim-pug
 	url = git@github.com:digitaltoad/vim-pug.git
+[submodule "plugged/nvim-treesitter"]
+	path = plugged/nvim-treesitter
+	url = https://github.com/nvim-treesitter/nvim-treesitter.git
+[submodule "plugged/nvim-lspconfig"]
+	path = plugged/nvim-lspconfig
+	url = git@github.com:neovim/nvim-lspconfig
