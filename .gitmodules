@@ -45,7 +45,31 @@
 	url = git@github.com:digitaltoad/vim-pug.git
 [submodule "plugged/nvim-treesitter"]
 	path = plugged/nvim-treesitter
-	url = https://github.com/nvim-treesitter/nvim-treesitter.git
+	url = git@github.com:nvim-treesitter/nvim-treesitter
 [submodule "plugged/nvim-lspconfig"]
 	path = plugged/nvim-lspconfig
 	url = git@github.com:neovim/nvim-lspconfig
+[submodule "plugged/cmp-nvim-lsp"]
+	path = plugged/cmp-nvim-lsp
+	url = git@github.com:hrsh7th/cmp-nvim-lsp
+[submodule "nvim-cmp"]
+	path = nvim-cmp
+	url = git@github.com:hrsh7th/nvim-cmp
+[submodule "nvim-lspconfig"]
+	path = nvim-lspconfig
+	url = git@github.com:neovim/nvim-lspconfig
+[submodule "plugged/nvim-cmp"]
+	path = plugged/nvim-cmp
+	url = git@github.com:hrsh7th/nvim-cmp
+[submodule "plugged/plenary.nvim"]
+	path = plugged/plenary.nvim
+	url = git@github.com:nvim-lua/plenary.nvim
+[submodule "plugged/popup.nvim"]
+	path = plugged/popup.nvim
+	url = git@github.com:nvim-lua/popup.nvim
+[submodule "plugged/telescope-fzf-native.nvim"]
+	path = plugged/telescope-fzf-native.nvim
+	url = git@github.com:nvim-telescope/telescope-fzf-native.nvim
+[submodule "plugged/telescope.nvim"]
+	path = plugged/telescope.nvim
+	url = git@github.com:nvim-telescope/telescope.nvim
