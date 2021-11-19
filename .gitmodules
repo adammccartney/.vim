@@ -76,3 +76,6 @@
 [submodule "plugged/cheat.sh-vim"]
 	path = plugged/cheat.sh-vim
 	url = https://github.com/dbeniamine/cheat.sh-vim
+[submodule "plugged/nvim-go"]
+	path = plugged/nvim-go
+	url = https://github.com/crispgm/nvim-go
